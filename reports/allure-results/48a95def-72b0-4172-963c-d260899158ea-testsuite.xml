@@ -1,0 +1,149 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663861522988' stop='1663861550375'>
+    <name>Sprint 1 Testcases: Verify error is displayed when user submits the empty feedback form</name>
+    <title>Sprint 1 Testcases: Verify error is displayed when user submits the empty feedback form</title>
+    <test-cases>
+        <test-case start='1663861522990' status='passed' stop='1663861522993'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663861522993' status='passed' stop='1663861536476'>
+            <name>Given I am on Hotels landing page</name>
+            <title>Given I am on Hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663861536477' status='passed' stop='1663861539873'>
+            <name>When I click on Sign in button</name>
+            <title>When I click on Sign in button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663861539874' status='passed' stop='1663861540297'>
+            <name>And I click Feedback</name>
+            <title>And I click Feedback</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663861540297' status='broken' stop='1663861550368'>
+            <name>And I click on Submit button</name>
+            <title>And I click on Submit button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("//*[@id='submit-button']") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("//*[@id='submit-button']") still not clickable after 10000ms
+                    at C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Commands.findClickableWebElement (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:72:9)
+                    at async Commands.clickWebElement (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:93:25)
+                    at async HotelsFeedback.clickSubmit (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\POM\Hotels\HotelsFeedback.js:51:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663861550369' status='broken' stop='1663861550370'>
+            <name>Then I verify error message is displayed</name>
+            <title>Then I verify error message is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I verify error message is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I verify error message is displayed" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\TC24.feature):1:1
+                	at Scenario(Verify error is displayed when user submits the empty feedback form):3:1
+                	at Step(I verify error message is displayed):8:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663861550370' status='broken' stop='1663861550371'>
+            <name>Then I verify star boxes section is in a red dotted box.</name>
+            <title>Then I verify star boxes section is in a red dotted box.</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I verify star boxes section is in a red dotted box." is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I verify star boxes section is in a red dotted box." is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\TC24.feature):1:1
+                	at Scenario(Verify error is displayed when user submits the empty feedback form):3:1
+                	at Step(I verify star boxes section is in a red dotted box.):9:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663861550372' status='passed' stop='1663861550373'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

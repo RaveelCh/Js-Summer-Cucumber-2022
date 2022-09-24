@@ -1,0 +1,74 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663868827211' stop='1663868850912'>
+    <name>Sprint 1 Testcases</name>
+    <title>Sprint 1 Testcases</title>
+    <test-cases>
+        <test-case start='1663868827235' status='broken' stop='1663868850902'>
+            <name>Verify user get error for invalid credentials</name>
+            <title>Verify user get error for invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.54'/>
+            </parameters>
+            <steps>
+                <step start='1663868827238' status='passed' stop='1663868839591'>
+                    <name>Given I am on Hotels landing page</name>
+                    <title>Given I am on Hotels landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868839591' status='broken' stop='1663868850902'>
+                    <name>When I click on Sign in link</name>
+                    <title>When I click on Sign in link</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='6cf2242b-4c55-45f5-b821-c417c420d2d8-attachment.png' type='image/png' size='416815'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1663868850903' status='canceled' stop='1663868850903'>
+                    <name>And I enter invalid email</name>
+                    <title>And I enter invalid email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868850903' status='canceled' stop='1663868850904'>
+                    <name>And I enter invalid password</name>
+                    <title>And I enter invalid password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868850904' status='canceled' stop='1663868850905'>
+                    <name>And I click Sign in button</name>
+                    <title>And I click Sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868850905' status='canceled' stop='1663868850906'>
+                    <name>Then I verify error is displayed</name>
+                    <title>Then I verify error is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Error: element ("//button[contains(text(), "Sign")]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("//button[contains(text(), "Sign")]") still not clickable after 10000ms
+                    at C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Commands.findClickableWebElement (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:72:9)
+                    at async Commands.clickWebElement (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:93:25)
+                    at async HotelsHome.clickSignInButton (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\POM\Hotels\HotelsHome.js:38:5)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

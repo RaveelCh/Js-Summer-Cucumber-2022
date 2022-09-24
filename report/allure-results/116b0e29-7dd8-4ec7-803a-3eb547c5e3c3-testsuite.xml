@@ -1,0 +1,52 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663628317176' stop='1663628318943'>
+    <name>Login</name>
+    <title>Login</title>
+    <test-cases>
+        <test-case start='1663628317232' status='passed' stop='1663628318941'>
+            <name>Verify user get error for invalid credentials</name>
+            <title>Verify user get error for invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps>
+                <step start='1663628317239' status='passed' stop='1663628318891'>
+                    <name>Given I am on facebook landing page</name>
+                    <title>Given I am on facebook landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663628318891' status='canceled' stop='1663628318917'>
+                    <name>When I enter "@#$%^^^" as username</name>
+                    <title>When I enter "@#$%^^^" as username</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663628318917' status='canceled' stop='1663628318924'>
+                    <name>And I enter "invalidPwd" as password</name>
+                    <title>And I enter "invalidPwd" as password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663628318924' status='canceled' stop='1663628318932'>
+                    <name>And I click login button</name>
+                    <title>And I click login button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663628318932' status='canceled' stop='1663628318936'>
+                    <name>Then I verify error is displayed</name>
+                    <title>Then I verify error is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,199 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663957991219' stop='1663958014356'>
+    <name>Sprint 1 Testcases: Verify user can submit feedback after completing the feedback form</name>
+    <title>Sprint 1 Testcases: Verify user can submit feedback after completing the feedback form</title>
+    <test-cases>
+        <test-case start='1663957991222' status='passed' stop='1663957991225'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663957991226' status='passed' stop='1663958002162'>
+            <name>Given I am on Hotels landing page</name>
+            <title>Given I am on Hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958002162' status='passed' stop='1663958005564'>
+            <name>When I click on Sign in button</name>
+            <title>When I click on Sign in button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958005564' status='passed' stop='1663958007008'>
+            <name>And I click Feedback</name>
+            <title>And I click Feedback</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958007008' status='passed' stop='1663958010896'>
+            <name>And I select any star-rating</name>
+            <title>And I select any star-rating</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958010897' status='passed' stop='1663958014337'>
+            <name>And I enter any comments</name>
+            <title>And I enter any comments</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958014337' status='broken' stop='1663958014340'>
+            <name>And I select any option for “How likely are you to return to Hotels.com?”</name>
+            <title>And I select any option for “How likely are you to return to Hotels.com?”</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select any option for “How likely are you to return to Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select any option for “How likely are you to return to Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):60:1
+                	at Step(I select any option for “How likely are you to return to Hotels.com?”):66:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663958014341' status='broken' stop='1663958014342'>
+            <name>And I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”</name>
+            <title>And I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):60:1
+                	at Step(I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”):67:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663958014343' status='broken' stop='1663958014345'>
+            <name>And I select any answer for ”Did you accomplish what you wanted to do on this page?”</name>
+            <title>And I select any answer for ”Did you accomplish what you wanted to do on this page?”</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select any answer for ”Did you accomplish what you wanted to do on this page?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select any answer for ”Did you accomplish what you wanted to do on this page?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):60:1
+                	at Step(I select any answer for ”Did you accomplish what you wanted to do on this page?”):68:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663958014346' status='pending' stop='1663958014348'>
+            <name>And I click on Submit button</name>
+            <title>And I click on Submit button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958014349' status='pending' stop='1663958014349'>
+            <name>Then I verify “THANK YOU FOR YOUR FEEDBACK.“ is displayed</name>
+            <title>Then I verify “THANK YOU FOR YOUR FEEDBACK.“ is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663958014350' status='passed' stop='1663958014352'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
