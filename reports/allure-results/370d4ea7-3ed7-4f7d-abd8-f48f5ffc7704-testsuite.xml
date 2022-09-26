@@ -1,0 +1,147 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663858194080' stop='1663858223789'>
+    <name>Sprint 1 Testcases: Verify TermsAndConditions link and PrivacyStatements link open correct page on new tab</name>
+    <title>Sprint 1 Testcases: Verify TermsAndConditions link and PrivacyStatements link open correct page on new tab</title>
+    <test-cases>
+        <test-case start='1663858194083' status='passed' stop='1663858194089'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858194089' status='passed' stop='1663858204652'>
+            <name>Given I am on Hotels landing page</name>
+            <title>Given I am on Hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858204653' status='passed' stop='1663858213699'>
+            <name>When I click on Sign in link</name>
+            <title>When I click on Sign in link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858213699' status='broken' stop='1663858223774'>
+            <name>And I click Sign up link</name>
+            <title>And I click Sign up link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: element ("//a[contains(@data-stid, "link-header-account-signup")]") still not clickable after 10000ms</message>
+                <stack-trace>Error: element ("//a[contains(@data-stid, "link-header-account-signup")]") still not clickable after 10000ms
+                    at C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\commands\browser\waitUntil.js:66:23
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriverio\build\middlewares.js:24:32)
+                    at async Element.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Commands.findClickableWebElement (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:72:9)
+                    at async Commands.clickWebElement (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:93:25)
+                    at async HotelsHome.clickSignUpLink (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\POM\Hotels\HotelsHome.js:46:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663858223774' status='pending' stop='1663858223776'>
+            <name>And I click “Terms and Conditions” link</name>
+            <title>And I click “Terms and Conditions” link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858223777' status='pending' stop='1663858223778'>
+            <name>Then I verify “Terms and Conditions” page opens in new tab</name>
+            <title>Then I verify “Terms and Conditions” page opens in new tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858223779' status='pending' stop='1663858223779'>
+            <name>When I click “Privacy Statement” link</name>
+            <title>When I click “Privacy Statement” link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858223780' status='pending' stop='1663858223780'>
+            <name>Then I verify “Privacy Statement” page opens in new tab</name>
+            <title>Then I verify “Privacy Statement” page opens in new tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663858223781' status='passed' stop='1663858223785'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

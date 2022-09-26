@@ -1,0 +1,144 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663863479781' stop='1663863513485'>
+    <name>Sprint 1 Testcases: Verify TermsAndConditions link and PrivacyStatements link open correct page on new tab</name>
+    <title>Sprint 1 Testcases: Verify TermsAndConditions link and PrivacyStatements link open correct page on new tab</title>
+    <test-cases>
+        <test-case start='1663863479782' status='passed' stop='1663863479785'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863479786' status='passed' stop='1663863486714'>
+            <name>Given I am on Hotels landing page</name>
+            <title>Given I am on Hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863486715' status='passed' stop='1663863489921'>
+            <name>When I click on Sign in button</name>
+            <title>When I click on Sign in button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863489921' status='passed' stop='1663863495036'>
+            <name>And I click Sign up link</name>
+            <title>And I click Sign up link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863495037' status='passed' stop='1663863504300'>
+            <name>And I click “Terms and Conditions” link</name>
+            <title>And I click “Terms and Conditions” link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863504301' status='passed' stop='1663863504319'>
+            <name>Then I verify “Terms and Conditions” page opens in new tab</name>
+            <title>Then I verify “Terms and Conditions” page opens in new tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863504319' status='passed' stop='1663863513470'>
+            <name>When I click “Privacy Statement” link</name>
+            <title>When I click “Privacy Statement” link</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663863513470' status='failed' stop='1663863513481'>
+            <name>Then I verify “Privacy Statement” page opens in new tab</name>
+            <title>Then I verify “Privacy Statement” page opens in new tab</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>AssertionError: new tab did not open: expected 3 to equal 2</message>
+                <stack-trace>AssertionError: new tab did not open: expected 3 to equal 2
+                    + expected - actual
+                
+                    -3
+                    +2
+                
+                    at World.&lt;anonymous> (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\step-definitions\Hotels\TC20SD.js:42:58)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663863513482' status='passed' stop='1663863513483'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

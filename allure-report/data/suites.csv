@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Wed Sep 21 19:52:17 EDT 2022","Wed Sep 21 19:52:17 EDT 2022","80","","Sprint 1 Testcases","","Sprint 1 Testcases","Verify user get error for invalid credentials","Verify user get error for invalid credentials",""
+"passed","Mon Sep 19 19:00:37 EDT 2022","Mon Sep 19 19:00:38 EDT 2022","1799","","Login","","Login","Verify user get error for invalid credentials","Verify user get error for invalid credentials",""

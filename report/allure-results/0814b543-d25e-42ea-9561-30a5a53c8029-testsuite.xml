@@ -1,0 +1,58 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663868836917' stop='1663868878222'>
+    <name>Sprint 1 Testcases</name>
+    <title>Sprint 1 Testcases</title>
+    <test-cases>
+        <test-case start='1663868836962' status='passed' stop='1663868878221'>
+            <name>Verify user get error for invalid credentials</name>
+            <title>Verify user get error for invalid credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='1-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='firefox-104.0'/>
+            </parameters>
+            <steps>
+                <step start='1663868836968' status='passed' stop='1663868848310'>
+                    <name>Given I am on Hotels landing page</name>
+                    <title>Given I am on Hotels landing page</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868848310' status='passed' stop='1663868858657'>
+                    <name>When I click on Sign in link</name>
+                    <title>When I click on Sign in link</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868858657' status='passed' stop='1663868862694'>
+                    <name>And I enter invalid email</name>
+                    <title>And I enter invalid email</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868862694' status='passed' stop='1663868866504'>
+                    <name>And I enter invalid password</name>
+                    <title>And I enter invalid password</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868866504' status='passed' stop='1663868877721'>
+                    <name>And I click Sign in button</name>
+                    <title>And I click Sign in button</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1663868877722' status='passed' stop='1663868878220'>
+                    <name>Then I verify error is displayed</name>
+                    <title>Then I verify error is displayed</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

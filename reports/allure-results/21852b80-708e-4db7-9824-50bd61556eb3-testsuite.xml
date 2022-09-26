@@ -1,0 +1,319 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663981563199' stop='1663981576775'>
+    <name>Sprint 1 Testcases: Verify Child-age dropdowns are same as number of Children selected</name>
+    <title>Sprint 1 Testcases: Verify Child-age dropdowns are same as number of Children selected</title>
+    <test-cases>
+        <test-case start='1663981563199' status='passed' stop='1663981563201'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981563202' status='passed' stop='1663981573585'>
+            <name>Given I am on Hotels landing page</name>
+            <title>Given I am on Hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981573585' status='passed' stop='1663981576760'>
+            <name>When I click on Travelers</name>
+            <title>When I click on Travelers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576760' status='broken' stop='1663981576767'>
+            <name>And I select “Children” as 2</name>
+            <title>And I select “Children” as 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select “Children” as 2" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select “Children” as 2" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify Child-age dropdowns are same as number of Children selected):73:1
+                	at Step(I select “Children” as 2):76:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663981576767' status='pending' stop='1663981576767'>
+            <name>Then I verify Children-age dropdown are 2</name>
+            <title>Then I verify Children-age dropdown are 2</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576768' status='pending' stop='1663981576768'>
+            <name>And I verify plus button is enabled</name>
+            <title>And I verify plus button is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576768' status='pending' stop='1663981576768'>
+            <name>And I verify minus button is enabled</name>
+            <title>And I verify minus button is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576768' status='broken' stop='1663981576769'>
+            <name>When I select “Children” as 6</name>
+            <title>When I select “Children” as 6</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select “Children” as 6" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select “Children” as 6" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify Child-age dropdowns are same as number of Children selected):73:1
+                	at Step(I select “Children” as 6):80:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663981576770' status='pending' stop='1663981576770'>
+            <name>Then I verify Children-age dropdown are 6</name>
+            <title>Then I verify Children-age dropdown are 6</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576770' status='pending' stop='1663981576770'>
+            <name>And I verify plus button is disabled</name>
+            <title>And I verify plus button is disabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576771' status='pending' stop='1663981576771'>
+            <name>And I verify minus button is enabled</name>
+            <title>And I verify minus button is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576771' status='broken' stop='1663981576771'>
+            <name>When I select “Children” as 5</name>
+            <title>When I select “Children” as 5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select “Children” as 5" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select “Children” as 5" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify Child-age dropdowns are same as number of Children selected):73:1
+                	at Step(I select “Children” as 5):84:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663981576772' status='pending' stop='1663981576772'>
+            <name>Then I verify Children-age dropdown are 5</name>
+            <title>Then I verify Children-age dropdown are 5</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576772' status='pending' stop='1663981576772'>
+            <name>And I verify plus button is enabled</name>
+            <title>And I verify plus button is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576772' status='pending' stop='1663981576772'>
+            <name>And I verify minus button is enabled</name>
+            <title>And I verify minus button is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576772' status='broken' stop='1663981576773'>
+            <name>When I select “Children” as 0</name>
+            <title>When I select “Children” as 0</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select “Children” as 0" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select “Children” as 0" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify Child-age dropdowns are same as number of Children selected):73:1
+                	at Step(I select “Children” as 0):88:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663981576773' status='pending' stop='1663981576773'>
+            <name>Then I verify Children-age dropdown is NOT displayed</name>
+            <title>Then I verify Children-age dropdown is NOT displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576773' status='pending' stop='1663981576773'>
+            <name>And I verify plus button is enabled</name>
+            <title>And I verify plus button is enabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576774' status='pending' stop='1663981576774'>
+            <name>And I verify minus button is disabled</name>
+            <title>And I verify minus button is disabled</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663981576774' status='passed' stop='1663981576775'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

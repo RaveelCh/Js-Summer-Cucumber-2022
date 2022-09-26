@@ -1,0 +1,211 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1663948091347' stop='1663948106803'>
+    <name>Sprint 1 Testcases: Verify user can submit feedback after completing the feedback form</name>
+    <title>Sprint 1 Testcases: Verify user can submit feedback after completing the feedback form</title>
+    <test-cases>
+        <test-case start='1663948091349' status='passed' stop='1663948091353'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948091353' status='passed' stop='1663948102600'>
+            <name>Given I am on Hotels landing page</name>
+            <title>Given I am on Hotels landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948102601' status='passed' stop='1663948106008'>
+            <name>When I click on Sign in button</name>
+            <title>When I click on Sign in button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948106008' status='broken' stop='1663948106779'>
+            <name>And I click Feedback</name>
+            <title>And I click Feedback</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>no such window: no such window</message>
+                <stack-trace>no such window: no such window
+                  (Session info: chrome=105.0.5195.102)
+                    at getErrorFromResponseBody (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriver\build\utils.js:198:12)
+                    at NodeJSRequest._request (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\webdriver\build\request\index.js:166:60)
+                    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+                    at async Browser.wrapCommandFn (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\node_modules\@wdio\utils\build\shim.js:137:29)
+                    at async Commands.switchToWindowHandle (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\Utils\Commands.js:196:9)
+                    at async HotelsHome.switchhandlestoDirectWord (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\POM\Hotels\HotelsHome.js:39:5)
+                    at async World.&lt;anonymous> (C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\step-definitions\Hotels\Sprint1SD.js:191:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663948106779' status='pending' stop='1663948106782'>
+            <name>And I select any star-rating</name>
+            <title>And I select any star-rating</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948106783' status='pending' stop='1663948106784'>
+            <name>And I enter any comments</name>
+            <title>And I enter any comments</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948106785' status='broken' stop='1663948106792'>
+            <name>And I select any option for “How likely are you to return to Hotels.com?”</name>
+            <title>And I select any option for “How likely are you to return to Hotels.com?”</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select any option for “How likely are you to return to Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select any option for “How likely are you to return to Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):60:1
+                	at Step(I select any option for “How likely are you to return to Hotels.com?”):66:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663948106792' status='broken' stop='1663948106793'>
+            <name>And I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”</name>
+            <title>And I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):60:1
+                	at Step(I select any answer for “Prior to this visit, have you ever booked on Hotels.com?”):67:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663948106794' status='broken' stop='1663948106796'>
+            <name>And I select any answer for ”Did you accomplish what you wanted to do on this page?”</name>
+            <title>And I select any answer for ”Did you accomplish what you wanted to do on this page?”</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Step "I select any answer for ”Did you accomplish what you wanted to do on this page?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.</message>
+                <stack-trace>Step "I select any answer for ”Did you accomplish what you wanted to do on this page?”" is not defined. You can ignore this error by setting cucumberOpts.ignoreUndefinedDefinitions as true.
+                	at Feature(C:\Users\ravee\Desktop\Study\Js-Summer-Cucumber-2022\features\Hotels\Sprint1.feature):1:1
+                	at Scenario(Verify user can submit feedback after completing the feedback form):60:1
+                	at Step(I select any answer for ”Did you accomplish what you wanted to do on this page?”):68:5
+                </stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1663948106797' status='pending' stop='1663948106797'>
+            <name>And I click on Submit button</name>
+            <title>And I click on Submit button</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948106798' status='pending' stop='1663948106799'>
+            <name>Then I verify “THANK YOU FOR YOUR FEEDBACK.“ is displayed</name>
+            <title>Then I verify “THANK YOU FOR YOUR FEEDBACK.“ is displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1663948106799' status='passed' stop='1663948106801'>
+            <name></name>
+            <title></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-105.0.5195.102'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
