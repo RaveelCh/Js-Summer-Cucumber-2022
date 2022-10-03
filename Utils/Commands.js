@@ -94,6 +94,12 @@ class Commands {
         await element.click();
     }
 
+    async scrollAndFindWebElement(locator) {
+        const element = await this.findWebElement(locator);
+        await element.scrollIntoView();
+        // await element.click();
+    }
+
     async scrollAndClickWebElement(locator) {
         const element = await this.findWebElement(locator);
         await element.scrollIntoView();
