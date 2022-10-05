@@ -13,10 +13,10 @@ class HotelsHome {
     
     travelersLocator = '//button[@class="uitk-menu-trigger uitk-fake-input uitk-form-field-trigger"]'
     
-    adultsIncrease = '//body/div[@id="app-blossom-flex-ui"]/div[@id="app-layer-manager"]/div[@id="app-layer-base"]/div[1]/div[2]/div[1]/div[1]/section[1]/form[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/section[1]/div[1]/div[1]/div[1]/button[2]/span[1]/*[1]'
+    adultsIncrease = "//input[@aria-label='Adults ']/following-sibling::button/span"
     adultsDecrease = "//*[@id='traveler_selector_adult_step_input-0-decrease-title']"
-    childIncrease = '//body/div[@id="app-blossom-flex-ui"]/div[@id="app-layer-manager"]/div[@id="app-layer-base"]/div[1]/div[2]/div[1]/div[1]/section[1]/form[1]/div[1]/div[1]/div[3]/div[1]/div[2]/div[1]/div[1]/section[1]/div[2]/div[1]/div[1]/button[2]/span[1]/*[1]'
-    childDecrease = "//*[@id='traveler_selector_children_step_input-0-decrease-title']"
+    childIncrease = "//input[contains(@aria-label,'Children')]/following-sibling::button"
+    childDecrease = "//input[contains(@aria-label,'Children')]"
     
     removeChildrenButton = "//input[contains(@aria-label,'Children')]/preceding-sibling::button";
     addChildrenButton = "//input[contains(@aria-label,'Children')]/following-sibling::button"

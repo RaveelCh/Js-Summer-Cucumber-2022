@@ -270,7 +270,7 @@ When(/^I select “Children” as (2|6|5|0)$/, async function(fieldname){
     }   
 })
 
-When(/^I verify Children-age dropdown are (2|6|5)$/, async function(fieldname){
+Then(/^I verify Children-age dropdown are (2|6|5)$/, async function(fieldname){
     switch(fieldname) {
         case '2':
             expect(await hotelsHome.verify2Dropdown(), 'Does not display 2 dropdown').to.be.true;
